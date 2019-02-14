@@ -7,16 +7,21 @@ class ArraySwapper {
     
     // Swap the two items in "inputArray" and return the output
     // put your code here
-    int temp;
-        
+    int i = 0, int j = 1;
+    int temp = inputArray[i];
+    inputArray[i] = inputArray[j];
+    inputArray[j] = temp;
+    
   }
   
   // This method swaps any 2 items in any array
   public void arraySwapAny2(int []inputArray, int loc1, int loc2) {
     
     // Swap the two items in "inputArray" and return the output
-    // Remember to make sure that loc1 and loc2 are valid positions in the array!
-    int temp;
+    // Remember to make sure that loc1 and loc2 are valid positions in the array
+    int temp = inputArray[loc1];
+    inputArray[loc1] = inputArray[loc2];
+    inputArray[loc2] = temp;
         
   }
 
